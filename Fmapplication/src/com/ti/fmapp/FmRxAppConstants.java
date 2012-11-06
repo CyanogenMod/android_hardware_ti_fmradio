@@ -15,19 +15,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-/*******************************************************************************\
- *
- *   FILE NAME:      FmRxAppConstants.java
- *
- *   BRIEF:          This file defines the API of the FM Rx stack.
- *
- *   DESCRIPTION:    General
- *
- *
- *
- *   AUTHOR:
- *
- \*******************************************************************************/
 package com.ti.fmapp;
 
 public interface FmRxAppConstants {
@@ -89,19 +76,26 @@ public interface FmRxAppConstants {
     public static final float DEFAULT_FREQ_JAPAN = (float) 76000 / 1000;
     public static final int DEFAULT_BAND = 0; // EuropeUS
     public static final int DEFAULT_MODE = 0; // Stereo
-    public static final boolean DEFAULT_RDS = false;
+    public static final boolean DEFAULT_RDS = true;
     public static final int DEFAULT_DEEMP = 0;
     public static final int DEFAULT_RDS_SYSTEM = 0;
     public static final boolean DEFAULT_RDS_AF = false;
     public static final int DEFAULT_RSSI = 7;
     public static final int DEFAULT_CHANNELSPACE = 2;
 
-    /* Actvity result index */
+    /* Activity result index */
 
     public static final int ACTIVITY_TUNE = 1;
     public static final int ACTIVITY_CONFIG = 2;
 
     public static final String FREQ_VALUE = "FREQUENCY";
+
+    /* Notifications */
+    public static final int NOTIFICATION_ID = 1;
+    public static final String COMMAND_CLEAR = "clear";
+    public static final String COMMAND_SEEK_UP = "up";
+    public static final String COMMAND_SEEK_DOWN = "down";
+    public static final String EXTRA_COMMAND = "EXTRA_COMMAND";
 
     /* Rssi range */
 
