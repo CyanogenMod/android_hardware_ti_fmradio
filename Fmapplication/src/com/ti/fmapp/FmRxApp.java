@@ -1680,7 +1680,8 @@ public class FmRxApp extends Activity implements View.OnClickListener,
             unregisterReceiver(mReceiver);
             unregisterReceiver(mNotificationsReceiver);
         }
-        sFmReceiver.close();
+        if (sFmReceiver != null)
+            sFmReceiver.close();
     }
 
     // Receives all of the FM intents and dispatches to the proper handler
