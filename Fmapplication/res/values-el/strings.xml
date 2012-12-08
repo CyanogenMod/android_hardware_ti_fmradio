@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ραδιόφωνο FM</string>
+    <string name="fmapp">Ραδίοφωνο FM</string>
+    <string name="stations">Ραδιοφωνικοί σταθμοί</string>
+    <string name="lblversion">Έκδοση:</string>
+    <string name="author">Μια εφαρμογή του:\n\nPedro Veloso (@pedronveloso) για το FreeXperia Project\nΕπιμέλεια γραφικών από τους Hairo The Blue Mage, dab512 και royale1223.
+        \n\nΒασισμένη στο αρχικό project των Sony Ericsson Mobile Communications AB και Texas Instruments, Inc.
+        \nΟ αρχικός κώδικας και αυτή η εφαρμογή είναι διαθέσιμα υπό την άδεια Apache 2.0, μπορείτε να βρείτε τoν πηγιαίο κώδικα του project στο
+        https://github.com/CyanogenMod/android_hardware_ti_fmradio
+    </string>
+    <string name="app_rxtune">Εισάγετε συχνότητα</string>
+    <string name="app_rxhelp">Σχετικά</string>
+    <string name="pgmSrv">Υπηρεσία προγράμματος</string>
+    <string name="statusMsg">Γίνεται λήψη...</string>
+    <string name="statusMsgStopped">Πατήστε το πλήκτρο αναζήτησης για αναπαραγωγή.</string>
+    <string name="notiMsg">Μήνυμα ειδοποίησης</string>
+    <string name="btnBack">Πίσω</string>
+    <string name="japaneseBand">Ιαπωνική μπάντα</string>
+    <string name="preEmphasis">Φίλτρο Pre Emphasis(Usec):</string>
+    <string name="radioData">RDS</string>
+    <string name="advanced">Για προχωρημένους</string>
+    <string name="rdsTransmit">Μετάδοση RDS:</string>
+    <string name="rdsAf">RDS AF</string>
+    <string name="app_rds">Ρυθμίσεις FM</string>
+    <string name="european">Ευρωπαϊκή</string>
+    <string name="japanese">Ιαπωνική</string>
+    <string name="Manual">Χειροκίνητο</string>
+    <string name="Configure">Ρύθμιση</string>
+    <string name="Help">Βοήθεια</string>
+    <string name="enterFreq_Dialog">Εισάγετε συχνότητα</string>
+    <string name="pty">Δυναμικό PTY</string>
+    <string name="comp">Συμπίεση</string>
+    <string name="picode">Κωδικός PI:</string>
+    <string name="speed">Ταχύτητα:</string>
+    <string name="size">Μέγεθος:</string>
+    <string name="rdsmode">Ενεργ. RDS</string>
+    <string name="ptycode">Κωδικός PTY:</string>
+    <string name="dicode">Κωδικοί DI:</string>
+    <string name="mute">Σίγαση</string>
+    <string name="unmute">Απενεργ. σιγασης</string>
+    <string name="att">Att</string>
+    <string name="station">Σταθμός</string>
+    <string name="configure_rds">Ρύθμιση RDS</string>
+    <string name="preferences">Επιλογές</string>
+    <string name="exit">Έξοδος</string>
+    <string name="about">Σχετικά</string>
+    <string name="preset">Προκαθορισμένο</string>
+    <string name="rdsaf">Ενεργ. RDS AF</string>
+    <string name="announcement">Ανακοίνωση</string>
+    <string name="TA">TA</string>
+    <string name="connecting">Σύνδεση...</string>
+    <string name="seraching">Αναζήτηση...</string>
+    <string name="tuning">Συντονισμός</string>
+    <string name="notsupported">Δεν υποστηρίζεται</string>
+    <string name="setfreq">Συχνότητα</string>
+    <string name="wait">Παρακαλώ περιμένετε</string>
+    <string name="startFm">Εκκίνηση FM</string>
+    <string name="volume">Ένταση:</string>
+    <string name="rssi">RSSI:</string>
+    <string name="band">Μπάντα:</string>
+    <string name="mode">Ήχος:</string>
+    <string name="deemphasis">Φίλτρο DEmp:</string>
+    <string name="rdssystem">Σύστημα RDS:</string>
+    <string name="number">Εισάγετε έναν έγκυρο αριθμό</string>
+    <string name="seeking">Αναζήτηση...</string>
+    <string name="playing">Αναπαραγωγή...</string>
+    <string name="name">""</string>
+    <string name="channelSpace">Εύρος</string>
+    <string name="confirm_action">Επιβεβαίωση ενέργειας</string>
+
+    <!-- Main UI -->
+    <string name="cannot_enable_radio">Δεν είναι δυνατή η ενεργοποίηση του ραδιοφώνου!</string>
+    <string name="please_wait">Παρακαλώ περιμένετε...</string>
+    <string name="powering_radio">Ενεργοποίηση ραδιοφώνου</string>
+    <string name="not_able_to_tune">Δεν είναι δυνατός ο συντονισμός!</string>
+    <string name="not_able_enable_rds">Δεν είναι δυνατή η ενεργοποίηση του RDS!</string>
+    <string name="not_able_disable_rds">Δεν είναι δυνατή η απενεργοποίηση του RDS!</string>
+    <string name="not_able_to_set_mode">Δεν είναι δυνατή η ρύθμιση ήχου!</string>
+    <string name="not_able_to_setband">Δεν είναι δυνατή η ρύθμιση μπάντας!</string>
+    <string name="not_able_to_setmute">Δεν είναι δυνατή η σίγαση!</string>
+    <string name="not_able_to_seek_up">Δεν είναι δυνατή η αναζήτηση προς τα πάνω!</string>
+    <string name="not_able_to_seek_down">Δεν είναι δυνατή η αναζήτηση προς τα κάτω!</string>
+    <string name="not_able_to_setband_to_value">Δεν είναι δυνατή η ρύθμιση της μπάντας στην επιλεγμένη τιμή!</string>
+    <string name="not_able_to_set_deemp_filter_to_value">Δεν είναι δυνατή η ρύθμιση του φίλτρου De-Emp στην επιλεγμένη τιμή!</string>
+    <string name="not_able_to_set_channel_spacing_to_value">Δεν είναι δυνατή η ρύθμιση του ChannelSpacing στην επιλεγμένη τιμή!</string>
+    <string name="not_able_to_set_rds_to_value">Δεν είναι δυνατή η ρύθμιση του συστήματος RDS στην επιλεγμένη τιμή!</string>
+    <string name="not_able_to_set_rds_af_on">Δεν είναι δυνατή η ενεργοποίηση του RDS AF!</string>
+    <string name="not_able_to_set_rssi_threshold">Δεν είναι δυνατή η ρύθμιση του Rssi Threshold!</string>
+    <string name="error_in_fm_app">Σφάλμα στην εφαρμογή FM</string>
+    <string name="applying_new_config">Εφαρμογή νέων ρυθμίσεων</string>
+    <string name="empty_text">(Άδειο)</string>
+    <string name="choose_station_name">Όνομα σταθμού</string>
+    <string name="add_station">Προσθήκη σταθμού</string>
+    <string name="operations">Επιλογές σταθμού</string>
+    <string name="edit_station">Επεξεργασία</string>
+    <string name="remove_station">Αφαίρεση</string>
+    <string name="confirm_action_remove_station">Είστε σίγουρος ότι θέλετε να αφαιρέσετε τον σταθμο:</string>
+    <string name="earphones_not_plugged">Δεν εντοπίστηκαν ακουστικά. Παρακαλώ συνδέστε τα ακουστικά πριν την εκκίνηση της εφαρμογής.
+    </string>
+
+    <!-- Tune Screen -->
+    <string name="valid_frequency">Εισάγετε μια έγκυρη συχνότητα!</string>
+
+    <!-- Content Description -->
+    <string name="seek_up">Αναζήτηση προς τα πάνω</string>
+    <string name="seek_down">Αναζήτηση προς τα κάτω</string>
+    <string name="close_notification">Κλείσιμο ειδοποίησης</string>
+
+    <!-- Preferences -->
+    <string name="general_preferences">Γενικές</string>
+    <string name="pref_use_rds_instead_title">Εμφάνιση προκαθορισμένου</string>
+    <string name="pref_use_rds_instead">Χρήση του ονόματος προκαθορισμένου σταθμού αντί για το RDS στη μπάρα ειδοποιήσεων</string>
+    <string name="pref_notification_bar_title">Ειδοποιήσεις</string>
+    <string name="pref_notification_bar">Χρήση των πλήκτρων ελέγχου στην μπάρα ειδοποιήσεων</string>
+    <string name="pref_print_debug_info_title">Πληροφορίες αποσφαλμάτωσης</string>
+    <string name="pref_print_debug_info">Εμφάνιση πληροφοριών αποσφαλμάτωσης στο logcat (απαιτεί επανεκκίνηση της εφαρμογής)</string>
+
+</resources>
