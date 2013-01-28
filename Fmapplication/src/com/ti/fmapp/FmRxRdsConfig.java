@@ -2,6 +2,7 @@
  * TI's FM
  *
  * Copyright 2001-2010 Texas Instruments, Inc. - http://www.ti.com/
+ * Copyright (C) 2012-2013 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -139,9 +140,9 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
         channelSpaceAdapter
                 .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnChannelSpacing.setAdapter(channelSpaceAdapter);
-        channelSpaceAdapter.add("50 KHZ");
-        channelSpaceAdapter.add("100 KHZ");
-        channelSpaceAdapter.add("200 KHZ");
+        channelSpaceAdapter.add("50 kHz");
+        channelSpaceAdapter.add("100 kHz");
+        channelSpaceAdapter.add("200 kHz");
         spnChannelSpacing.setOnItemSelectedListener(gItemSelectedHandler);
 
         // De-Emp Spinner
@@ -151,9 +152,9 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
         deEmpAdapter
                 .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnDeEmp.setAdapter(deEmpAdapter);
-        deEmpAdapter.add("0 sec");
-        deEmpAdapter.add("50 sec");
-        deEmpAdapter.add("75 sec");
+        deEmpAdapter.add(getString(R.string.pref_rds_0sec));
+        deEmpAdapter.add(getString(R.string.pref_rds_50sec));
+        deEmpAdapter.add(getString(R.string.pref_rds_75sec));
         spnDeEmp.setOnItemSelectedListener(gItemSelectedHandler);
 
         // Mode(Mono/Stereo) Spinner
@@ -163,8 +164,8 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
         modeAdapter
                 .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnMode.setAdapter(modeAdapter);
-        modeAdapter.add("STEREO");
-        modeAdapter.add("MONO");
+        modeAdapter.add(getString(R.string.pref_rds_stereo));
+        modeAdapter.add(getString(R.string.pref_rds_mono));
         spnMode.setOnItemSelectedListener(gItemSelectedHandler);
 
     }
@@ -198,7 +199,7 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
                 .setDropDownViewResource(android.R.layout.select_dialog_item);
         spnRdsSystem.setAdapter(emptyAdapter);
         emptyAdapter.clear();
-        emptyAdapter.add(" RDS is Disabled ");
+        emptyAdapter.add(getString(R.string.pref_rds_is_disabled));
         spnRdsSystem.setOnItemSelectedListener(gItemSelectedHandler);
 
     }
@@ -423,7 +424,7 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
             } else {
                 new AlertDialog.Builder(this).setIcon(
                         android.R.drawable.ic_dialog_alert).setMessage(
-                        "Enter valid RSSI value in range 1-127!!")
+                        getString(R.string.pref_rds_invalid_rssi))
                         .setNegativeButton(android.R.string.ok, null).show();
                 textRssi.setText(null);
             }
@@ -433,7 +434,7 @@ public class FmRxRdsConfig extends Activity implements View.OnKeyListener,
             }
             new AlertDialog.Builder(this).setIcon(
                     android.R.drawable.ic_dialog_alert).setMessage(
-                    "Enter valid RSSI value in range 1-127!!")
+                    getString(R.string.pref_rds_invalid_rssi))
                     .setNegativeButton(android.R.string.ok, null).show();
             textRssi.setText(null);
         }

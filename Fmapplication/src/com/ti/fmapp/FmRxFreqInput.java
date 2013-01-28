@@ -3,6 +3,7 @@
  *
  * Copyright 2001-2010 Texas Instruments, Inc. - http://www.ti.com/
  * Copyright (C) 2010 Sony Ericsson Mobile Communications AB.
+ * Copyright (C) 2012-2013 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

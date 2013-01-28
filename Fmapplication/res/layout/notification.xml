@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="horizontal"
               android:layout_width="fill_parent"
@@ -7,67 +20,64 @@
 
     <ImageView
             android:id="@+id/image"
+            android:src="@drawable/fm_statusbar_icon"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
             android:layout_width="@dimen/notification_icon_size"
             android:layout_height="@dimen/notification_icon_size"
-            android:contentDescription="@string/app_name"
-            android:background="@drawable/status_bg"
-            android:scaleType="center"
-            android:src="@drawable/fm_statusbar_icon"/>
+            android:background="@drawable/status_bg"/>
 
     <LinearLayout
             android:orientation="vertical"
-            android:layout_marginLeft="10dip"
             android:gravity="center_vertical"
             android:layout_width="80dip"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip">
 
         <TextView
                 android:id="@+id/tv_frequency"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="16dip"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
         <TextView
                 android:id="@+id/tv_station_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:textColor="@color/white"
+                android:textSize="14dip"
                 android:singleLine="true"
                 android:ellipsize="end"
-                android:textSize="14dip"/>
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
     </LinearLayout>
 
     <ImageButton
             android:id="@+id/ib_seek_down"
+            android:src="@drawable/fm_autosearch_reduce_enable_white"
+            style="@style/StatusBarButton"
+            android:contentDescription="@string/seek_down"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:contentDescription="@string/seek_down"
-            style="@style/StatusBarButton"
-            android:src="@drawable/fm_autosearch_reduce_enable_white"/>
+            android:layout_gravity="center_vertical"/>
 
     <ImageButton
             android:id="@+id/ib_seek_up"
+            android:src="@drawable/fm_autosearch_plus_enable_white"
+            style="@style/StatusBarButton"
+            android:contentDescription="@string/seek_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:contentDescription="@string/seek_up"
-            style="@style/StatusBarButton"
-            android:src="@drawable/fm_autosearch_plus_enable_white"/>
+            android:layout_gravity="center_vertical"/>
 
     <ImageButton
             android:id="@+id/ib_status_bar_collapse"
+            android:src="@drawable/fm_notification_bar_collapse"
             style="@style/StatusBarButton"
             android:contentDescription="@string/close_notification"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/fm_notification_bar_collapse"/>
-
-
+            android:layout_weight="1"/>
 </LinearLayout>

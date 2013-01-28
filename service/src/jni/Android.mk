@@ -1,4 +1,5 @@
 # Modified by Sony Ericsson Mobile Communications AB
+# Copyright (C) 2012-2013 The CyanogenMod Project
 
 LOCAL_PATH := $(call my-dir)
 FM_STACK_PATH:= hardware/ti/fmradio/fm_stack/
@@ -38,4 +39,3 @@ LOCAL_MODULE := libfmrx
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
-
