@@ -106,7 +106,7 @@
                 android:layout_marginRight="13dip"
                 android:layout_alignParentRight="true"/>
 
-        <!-- <ImageView
+        <ImageView
                 android:id="@+id/imgLoudspeaker"
                 android:src="@drawable/fm_loudspeaker_off"
                 android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
                 android:layout_gravity="left"
                 android:layout_marginTop="88dip"
                 android:layout_marginRight="13dip"
-                android:layout_alignParentRight="true"/> -->
+                android:layout_alignParentRight="true"/>
     </RelativeLayout>
 
     <TextView
